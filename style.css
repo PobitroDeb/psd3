@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* h1, h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+} */
+.container{
+        max-width: 1120px;
+        margin: 0px auto;
+     border-right: 2px solid #3498db;
+     border-left: 2px solid #3498db;
+}
+.headr{
+    height: 700px;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.headr h1 {
+	font-size: 80px;
+	color: #ecf0f1;
+	text-align: left;
+	margin-top: 19%;
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.headr a{
+    text-decoration: none;
+}
+.headr a button {
+	width: 170px;
+	border: 4px solid white;
+    background: #95a5a6;
+    margin-top: 35px;
+	margin-left: 25%;
+	padding: 15px;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.nav {
+	height: 74px;
+	background: #34495e;
+	overflow: hidden;
+}
+.nav h2 {
+	float: left;
+	/* padding: 10px; */
+	text-align: ;
+	margin: 30px;
+	margin-left: 5%;
+	font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+.menu{
+    float: right;
+}
+.menu ul {
+    float: left;
+}
+.menu ul li {
+	margin-top: 10px;
+    float: left;
+    margin-right: 10px;
+	list-style: none;
+    /* padding: 10px; */
+    padding-top: 17px;
+    padding-left: 13px;
+    padding-bottom: 17px;
+    background: transparent;
+    border-right: 1px solid;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul  li a{
+   font-size: 18px;
+   text-align: center;
+   color: white;
+   padding: 5px;
+   margin-right: 5px;
+}
+.menu ul  li a:hover{
+
+}
+ /* End header  */
+.content_border{
+    /* height: 400px; */
+    background: #ecf0f1;
+    padding: 75px;
+    overflow: hidden;
+}
+.value{
+   width: 32.33%;
+   float: left;
+  display: inline-block;
+  border-right: 1px solid black;
+
+   
+}
+.value:last-child{
+    border-right: none;
+}
+
+.value h2,p,a{
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
+.value h2 {
+	font-size: 35px;
+	color: black;
+	text-align: left;
+    margin: 24px;
+    text-transform: capitalize;
+}
+.value p {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 16px;
+	color: black;
+}
+.value a {
+	font-size: 20px;
+	float: right;
+	padding: ;
+	padding-right: 25px;
+	padding-top: 4px;
+	color: #27ae60;
+}
+/* END CONTENT  */
+.about{}
+.container{}
+.about_me{
+    height: 700px;
+    background:#95a5a6;
+    overflow: hidden;
+    padding: 15px;
+}
+.about_img{
+    float: left;
+    display: inline-block;
+    padding: 20px;
+    /* width: 35%; */
+}
+.about_img img{
+    border: 10px solid #ecf0f1;
+}
+/* END about image  */
+.about_write{
+    padding: 25px;
+    margin-top: 35px;
+}
+.about_write h2 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+    padding: 12px;
+    text-decoration: underline;
+}
+
+.about_write p {
+	font-size: 21px;
+	color: black;
+	padding: 30px;
+}
+.skill_writting {
+	width: 250px;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+}
+/* .skill_writting i{
+    float: left;
+    display: in;
+} */
+.skill_writting h3 {
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.skill_writting li{
+    margin-left: 10px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+/* End about section  */
+
+.skill_about{
+    height: 600px;
+    background:#bdc3c7;
+    overflow: hidden;
+    padding: 100px;
+    border: 1px solid #2c3e50;
+}
+.my_skill{
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+.my_skill h2 {
+	font-size: 30px;
+	padding: 15px;
+	color: black;
+	text-align: left;
+	text-transform: uppercase;
+}
+.my_skill p{
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    margin-left: 0px;
+    /* line-height: 20px; */
+
+}
+.my_skill button {
+	font-size: 15px;
+	padding: 21px;
+	background: transparent;
+	border: 2px solid #27ae60;
+}
+.skill_presentices{
+    margin-top: 60px;
+}
+.skill_presentices h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.parcentices {
+	width: 50%;
+	float: right;
+	height: 18px;
+    background: wheat;
+    margin-bottom: 50px;
+}
+.parcentices p{
+ background: green;
+  padding-left: 65%;
+  width: 95px;
+}
+.parcentices2 {
+	width: 50%;
+	float: right;
+	height: 18px;
+    background: wheat;
+    margin-bottom: 50px;
+}
+.parcentices2 p{
+ background: green;
+  padding-left: 65%;
+  width: 43px;
+}
+.parcentices3 {
+	width: 50%;
+	float: right;
+	height: 18px;
+    background: wheat;
+    margin-bottom: 50px;
+}
+.parcentices3 p{
+ background: green;
+  padding-left: 65%;
+  width: 23px;
+}
+.parcentices4 {
+	width: 50%;
+	float: right;
+	height: 18px;
+    background: wheat;
+    margin-bottom: 50px;
+}
+.parcentices4 p{
+ background: green;
+  padding-left: 65%;
+  width: 43px;
+}
+/* end skill section  */
+
+.education{}
+.container{}
+.education_section{
+    /* height: 2000px; */
+   background: #f8f4ff;
+    overflow: hidden;
+}
+.my_education, .my_education_center{
+    padding: 25px;
+}
+.my_education{
+    width: 35%;
+    float: left;
+    display: inline-block;
+    margin-top: 15px;
+}
+.my_education h2 {
+	font-size: 35px;
+	color: #2c3e50;
+	padding: 5px;
+	margin-left: 20px;
+	padding-bottom: 24px;
+	text-transform: capitalize;
+}
+.my_education p {
+	font-size: 18px;
+	color: black;
+	text-align: left;
+	padding: 0px;
+}
+/* end my education  */
+
+
+.my_education_center {
+	margin-left: 40%;
+	width: 55%;
+	padding-top: 10px;
+}
+.my_education_center h2 {
+	font-size: 25px;
+	color: black;
+    padding: 17px;
+    padding-bottom: 5px;
+}
+.my_education_center h4 {
+	font-size: 20px;
+	color: black;
+	margin-left: 29px;
+	margin-top: 5px;
+}
+.my_education_center button {
+	height: 39px;
+	width: 219px;
+	background: green;
+	margin-left: 28px;
+	margin-top: 10px;
+	color: wheat;
+	font-size: 15px;
+}
+.my_education_center hr{
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.my_education_center p{
+  font-size: 18px;
+  color: black;
+}
+.education_section, .my_education_center:last-child{
+   padding-top: 0px;
+}
+
+
+
+
+
+/* PORTFOLIO */
+.portolio_contet{
+    /* height: 1000px; */
+    background:#ecf0f1;
+    overflow: hidden;
+    
+}
+.gallarywriting h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: black;
+    text-transform: capitalize;
+}
+ .portolio1{
+        float: left;
+        display: inline-block;
+    }
+    .portolio1 img{
+        margin-left: 45px;
+       margin-bottom: 15px;
+       border: 5px solid #95a5a6;
+    }
+    /* end porfolio */
+    .loginbox{
+    }
+    .login{
+        padding: 75px;
+        height: 400px; 
+        background:url(img/contac.jpg);
+        text-align: center;
+       
+    }
+    .form-control{
+       width: 75%;
+       height: 70px;
+       margin-bottom: 25px;
+       font-size: 25px;
+    }
+   .form-control1{
+    width: 75%;
+    height: 50px;
+    margin-bottom: 25px;
+    font-size: 25px;
+   }
+   .form-submit {
+	background-color: #0080ff;
+	border-color: transparent;
+	height: 50px;
+	width: 75%;
+	margin-top: 20px;
+	transition: 0.4s;
+	font-size: 25px;
+	color: white;
+}
+/* end contact form  */
+  .footerr{
+    /* margin-bottom: 400px; */
+    height: 100px;
+    background: #7f8c8d;
+    overflow: hidden;
+  }
+  .footerr li {
+      list-style: none;
+      float: left;
+      padding: 25px;
+      
+  }
+  .footerr li a {
+    font-size: 43px;
+}
+.footerr h4 {
+	font-size: 15px;
+	float: left;
+	display: inline-block;
+	margin-top:70px;
+	margin-bottom: 0px;
+}
+ .right{
+     float: right;
+     font-size: 18px;
+ }
+ .right li a{
+     font-size: 20px;
+ }
